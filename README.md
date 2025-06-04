@@ -1,10 +1,41 @@
-# Getting Started with Create React App
+# React Form Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based form with validation for required fields implemented without using third-party libraries.
+
+## Features
+
+- Form validation for required fields
+- Display error messages for invalid input
+- Disable submission until all fields are filled correctly
+- Show all filled details on a new route post-successful submission
+- Password field with show/hide functionality
+- Dependent dropdowns (country and city)
+- Phone number with country code selection
+
+## Required Fields
+
+- First Name
+- Last Name
+- Username
+- E-mail
+- Password (with show/hide functionality)
+- Phone Number (country code + number)
+- Country (dropdown)
+- City (dropdown - dependent on country selection)
+- PAN Number (for identification)
+- Aadhar Number (for identification)
+
+## Validation Rules
+
+- First Name & Last Name: Only alphabets allowed
+- Username: Letters, numbers, and underscores, minimum 4 characters
+- Email: Valid email format
+- Password: Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number, and one special character
+- Phone Number: 10 digits
+- PAN Number: Format ABCDE1234F (Indian PAN format)
+- Aadhar Number: 12 digits
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
